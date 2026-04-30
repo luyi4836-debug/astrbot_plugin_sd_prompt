@@ -64,15 +64,15 @@ http://127.0.0.1:7860/sdapi/v1/txt2img
 
 直接输入：
 
-绘个图 可爱双马尾洛丽塔少女坐在教室里
+绘图 可爱双马尾洛丽塔少女坐在教室里
 
 也可以中英混合：
 
-绘个图 cute girl sitting in classroom
+绘图 cute girl sitting in classroom
 
 也支持负面词：
 
-绘个图 少女在教室 --neg low quality, bad hands
+绘图 少女在教室 --neg low quality, bad hands
 
 --------------------------------------------------
 

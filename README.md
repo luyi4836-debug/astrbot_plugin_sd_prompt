@@ -18,18 +18,9 @@ AstrBot SD Prompt 插件（通用LLM版）
 
 【安装方法】
 
-1、放入插件目录
-
-路径：
-AstrBot/data/plugins/astrbot_plugin_sd_prompt/
-
-目录结构：
-
-astrbot_plugin_sd_prompt/
-  astrbot_plugin_sd_prompt.py
-  config.json
-
-2、重启 AstrBot
+1、确保已安装astrbot
+2、将插件复制到 AstrBot 的插件目录
+3、重启 AstrBot
 
 --------------------------------------------------
 

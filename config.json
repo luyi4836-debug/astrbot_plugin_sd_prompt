@@ -1,0 +1,27 @@
+{
+  "API_KEY": {
+    "description": "LLM API Key",
+    "type": "string",
+    "hint": "留空则关闭AI翻译",
+    "default": "",
+    "obvious_hint": true
+  },
+  "API_BASE": {
+    "description": "LLM API地址",
+    "type": "string",
+    "hint": "支持OpenAI兼容接口",
+    "default": "https://ark.cn-beijing.volces.com/api/v3"
+  },
+  "MODEL_NAME": {
+    "description": "模型名称",
+    "type": "string",
+    "hint": "例如：gpt-4o-mini / deepseek-chat / doubao-seed-2-0-mini",
+    "default": "doubao-seed-2-0-mini-260215"
+  },
+  "SD_API_URL": {
+    "description": "Stable Diffusion接口地址",
+    "type": "string",
+    "hint": "如：http://127.0.0.1:7860/sdapi/v1/txt2img",
+    "default": "http://127.0.0.1:7860/sdapi/v1/txt2img"
+  }
+}

@@ -1,0 +1,28 @@
+name: astrbot_plugin_sd_prompt
+author: 谷雨
+version: 1.0.0
+description: 通用LLM + Stable Diffusion提示词生成与出图插件
+entry: astrbot_plugin_sd_prompt:SDPromptPlugin
+
+# 是否需要配置
+config_required: false
+
+# 插件分类
+category: utility
+
+# 依赖（最小）
+dependencies:
+  - aiohttp
+
+# 标签（可选）
+tags:
+  - stable diffusion
+  - prompt
+  - ai
+  - llm
+
+# 简要说明
+summary: 中文转SD提示词 + 自动出图 + 支持任意LLM
+
+# 最低AstrBot版本（可选）
+min_astrbot_version: "4.0.0"
